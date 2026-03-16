@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+.streamlit/
+assets/*.ico
+assets/*.png
+README.md
+Dockerfile
+.github/
