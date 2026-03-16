@@ -1,33 +1,27 @@
-# AIO Web Tool (Streamlit Version)
+# AIO Web Tool
 
-A premium web-based migration of the AIO v2 utility tool.
+A web-based tool for CSV and Excel processing.
 
-## 🚀 How to Run
+## Getting Started
 
-1. **Navigate to the directory**:
-   ```bash
-   cd /Users/kostaschristopoulos/Documents/Python/streamlit
-   ```
+### 1. Installation
+Clone the repository and install the dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+### 2. Launch the Application
+Start the local development server:
+```bash
+streamlit run app.py
+```
 
-3. **Launch the app**:
-   ```bash
-   streamlit run app.py
-   ```
+---
 
-## 🛠 Features Included
-- **CSV Splitter** (In-memory processing)
-- **Column Dropper** (Multi-select UI)
-- **Array Converter** (Auto-cleaning)
-- **CSV Concat** (Multi-file upload)
-- **Excel to CSV** (Sheet selection & ZIP export)
-- **Date Harmonizer** (Interactive column picker)
-
-## 🎨 Design Notes
-- **Premium Dark Mode**: Built with a custom CSS theme inspired by modern SaaS interfaces.
-- **Responsive Layout**: Works on narrow or wide screens.
-- **Real-time Previews**: View your data before and after processing.
+## 🛠 Features
+- **CSV Splitter**: High-speed in-memory splitting with duplicate detection and preview logs.
+- **Column Dropper**: Interactive multi-select interface for cleaning datasets.
+- **Array Converter**: Automatically converts array-like strings to pipe-delimited text.
+- **CSV Concatenator**: Merge multiple files with auto-matching or specific column targets.
+- **Excel to CSV**: Extract individual sheets or bulk-export workbooks to ZIP.
+- **Date Harmonizer**: Standardize date formats across multiple columns simultaneously.
